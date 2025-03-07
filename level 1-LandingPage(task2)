@@ -1,0 +1,105 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sathwika Nizampet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Sathwika Nizampet</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header id="home">
+        <h1>Hi, I'm Sathwika Nizampet 👋</h1>
+        <p>A passionate Full Stack Developer 🚀 building web and AI-based projects.</p>
+        <a href="https://drive.google.com/file/d/1oaXTzFEkZVwfe3Bl9E0Aa_Kgj3ixpfKZ/view?usp=drive_link" class="btn">See My Resume</a>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a B.Tech CSE-AIML student at Malla Reddy Engineering College For Women, currently in my second year.
+             Passionate about AI, ML, and web development, I have worked on multiple projects like a <strong>Smart Resume Generator</strong> and <strong>Stress Monitoring model</strong>.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Smart Resume Generator</strong> - AI-powered tool for dynamic resume creation.</li>
+            <li><strong>stress Monitoring</strong> - To understand Stress patterns using Ai-driven techniques.</li>
+           
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p>Email: sathwikagoud26@gmail.com</p>
+        <p>Phone: +91 9182551145</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sathwika-nizampet-02b6682ba" target="_blank">linkedin.com/in/neelapranavi</a></p>
+        
+    </section>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: #1a1a1a;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        header {
+            padding: 100px 20px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</body>
+</html>
